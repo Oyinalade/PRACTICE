@@ -1,0 +1,108 @@
+/* body {
+  background-color: purple;
+}
+h1 {
+  text-align: center;
+}
+.card-1 {
+  width: 300px;
+  outline: 2px solid black;
+  outline-offset: 5px;
+}
+.card-1 h2 {
+}
+.card-2 {
+  width: 300px;
+  outline: 2px solid black;
+  outline-offset: 5px;
+}
+.card-3 {
+  width: 300px;
+  outline: 2px solid black;
+  outline-offset: 5px;
+} */
+
+body {
+  background-color: purple;
+}
+#card {
+  position: relative;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+.card-1 {
+  position: absolute;
+  width: 18.5rem;
+  border: 3px solid black;
+  font-size: 1.375em;
+  height: 330px;
+  padding: 10px;
+  background: rgb(215, 215, 26);
+}
+.card-1 h2 {
+  left: 150px;
+  bottom: 40px;
+  position: relative;
+  border: 1px solid black;
+  width: 157px;
+  background-color: blue;
+  border-style: hidden;
+}
+.card-2 {
+  position: absolute;
+  width: 18.5rem;
+  border: 3px solid black;
+  font-size: 1.375em;
+  height: 330px;
+  padding: 10px;
+  left: 20em;
+  background: rgb(214, 21, 173);
+}
+.card-2 h2 {
+  left: 190px;
+  bottom: 40px;
+  position: relative;
+  border: 1px solid black;
+  width: 117px;
+  background-color: brown;
+  border-style: hidden;
+}
+.card-3 {
+  position: absolute;
+  width: 18.5rem;
+  border: 3px solid black;
+  font-size: 1.375em;
+  height: 330px;
+  padding: 10px;
+  background: rebeccapurple;
+  left: 40em;
+}
+.card-3 h2 {
+  left: 220px;
+  bottom: 40px;
+  position: relative;
+  border: 1px solid black;
+  width: 86px;
+  background-color: blueviolet;
+  border-style: hidden;
+}
+@media (max-width: 992px) and (min-width: 700px) {
+  .card-3 {
+    left: 10em;
+    top: 20em;
+  }
+}
+@media (max-width: 500px) {
+  .card-2 {
+    top: 20em;
+    left: auto;
+  }
+  .card-3 {
+    top: 38em;
+    left: auto;
+  }
+}
